@@ -1,0 +1,234 @@
+
+body{
+    color: white;
+    background-color: black;
+    font-size: 1.15rem;
+}
+
+.title{
+    color: #EB35D4;
+}
+
+/* Inicio HEADER */
+
+header{
+    height: 21rem;
+}
+
+.header__logo--img{
+    width: 6rem; 
+}
+
+.header__logo--icon{
+    width: 1.9rem;
+}
+
+.btn__login{
+    background: #B926A7;
+    background-image: -webkit-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -moz-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -ms-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -o-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: linear-gradient(to bottom, #B926A7, #EB35D4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 1.75rem;
+    -webkit-box-shadow: 0rem 0.063rem 1.875rem #EB35D4;
+    -moz-box-shadow: 0rem 0.063rem 1.875rem #EB35D4;
+    box-shadow: 0rem 0.063rem 1.875rem #EB35D4;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.125rem 0.938rem;
+    text-decoration: none;
+}
+
+.btn__login:hover {
+    text-decoration: none;
+}
+
+.header__div{
+    margin-right: 16rem;
+    margin-left: 2rem;
+}
+
+.header__name{
+    width: 75rem;
+    margin: 2rem;
+}
+
+.header__img{
+    width: 25rem;
+    border-radius: 56% 44% 16% 84% / 83% 83% 17% 17%;
+    margin-top: 4rem;
+    margin-left: 15rem;
+}
+
+.moon{
+    position: relative;
+    margin-top: -2rem;
+    margin-left: 3.5rem;
+    width: 15rem;
+    padding-left: 1rem;
+    z-index: -2;
+}
+
+.star__header{
+    width: 4rem;
+    margin-left: 13rem;
+    margin-top: -1rem;
+}
+
+/* Inicio SECCIÓN SOBRE MÍ */
+
+.sectionOne{
+    background-color: #B926A7;
+    height: 18rem;
+    
+}
+
+.star__aboutMe--1{
+    width: 6rem;
+    margin-left: 5rem;
+}
+
+.computer{
+    width: 12rem;
+}
+
+.star__aboutMe--2{
+    width: 6rem;
+}
+
+.btn__descarga {
+    background: #EB35D4;
+    background-image: -webkit-linear-gradient(top, #EB35D4, #000000);
+    background-image: -moz-linear-gradient(top, #EB35D4, #000000);
+    background-image: -ms-linear-gradient(top, #EB35D4, #000000);
+    background-image: -o-linear-gradient(top, #EB35D4, #000000);
+    background-image: linear-gradient(to bottom, #EB35D4, #000000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0rem 0.063rem 0.313rem #ffffff;
+    -moz-box-shadow: 0rem 0.063rem 0.313rem #ffffff;
+    box-shadow: 0rem 0.063rem 0.313rem #ffffff;
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding: 0.188rem 0.938rem 0.188rem 15px;
+    text-decoration: none;
+}
+
+.btn__descarga:hover {
+    text-decoration: none;
+}
+
+/* Inicio SECCION EXPERIENCIAS LABORALES */
+
+.cometa{
+    width: 5rem;
+    margin-left: 5rem;
+}
+
+.grid__experience{
+    width: 70rem;
+    margin-left: 8rem;   
+}
+
+.img__experience{
+    height: 5.5rem;
+}
+
+.logo__osde{
+    width: 5rem;
+}
+
+.logo__manpower{
+    width: 11rem;
+}
+
+.logo__mercantil{
+    width: 8rem;
+}
+
+/* Inicio SECCION EDUCACIÓN */
+
+.star__edu{
+    width: 4.5rem;
+    transform: rotate(180deg);
+}
+
+.grid__education{
+    width: 58rem;
+    margin-left: 15rem;
+}
+
+.logo__AP{
+    width: 8rem;
+}
+
+.logo__coder{
+    width: 7rem;
+}
+
+/* Inicio SECCION HABILIDADES */
+
+.urano{
+    width: 3.3rem;
+    transform: rotate(-10deg);
+}
+
+.grid__habilities{
+    width: 61rem;
+    margin-left: 0rem;
+}
+
+.progress-bar{
+    background: #EB35D4;
+}
+
+/* INICIO SECCIÓN PROYECTOS */
+
+.star__proyect{
+    width: 2.5rem;
+}
+
+.card{
+    background-color: black;
+    transition: all 1s ease-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 2px 2px 38px 0px rgba(235,53,212,1);
+    -moz-box-shadow: 2px 2px 38px 0px rgba(235,53,212,1);
+    box-shadow: 2px 2px 38px 0px rgba(235,53,212,1);
+}
+
+.btn__card{
+    background: #B926A7;
+    background-image: -webkit-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -moz-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -ms-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -o-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: linear-gradient(to bottom, #B926A7, #EB35D4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 1.75rem;
+    color: #ffffff;
+    padding: 0.10rem 0.8rem;
+    font-size: 0.8rem;
+}
+
+.title--dos{
+    font-size: 1.022rem;
+}
+
+/* INICIO FOOTER */
+
+.footer{
+    background-color: #B926A7;
+}
+
+.atribuciones{
+    font-size: 0.9rem;
+}
