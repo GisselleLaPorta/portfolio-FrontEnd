@@ -1,0 +1,50 @@
+.urano{
+    width: 3.3rem;
+    transform: rotate(-10deg);
+}
+
+.grid__habilities{
+    width: 61rem;
+    margin-left: 0rem;
+}
+
+.progress-bar{
+    background: #EB35D4;
+}
+
+/* MEDIAS */
+
+@media screen and (max-width: 1200px){
+    .grid__habilities{
+        width: 50rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    .grid__habilities{
+        width: 40rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .grid__habilities{
+        width: 30rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 460px){
+    .grid__habilities{
+        width: 22rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .grid__habilities{
+        width: 19rem !important;
+    }
+    
+}

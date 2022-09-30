@@ -1,0 +1,131 @@
+#wave{
+    position: absolute;
+    z-index: -2;
+}
+
+.sectionOne{
+    background-color: #B926A7;
+    height: 18rem; 
+    margin-top: 5.8rem;
+    
+}
+
+.star__aboutMe--1{
+    width: 6rem;
+    
+}
+
+.computer{
+    width: 11rem;
+}
+
+.star__aboutMe--2{
+    width: 5rem;
+}
+
+.btn__descarga {
+    background: #EB35D4;
+    background-image: -webkit-linear-gradient(top, #EB35D4, #000000);
+    background-image: -moz-linear-gradient(top, #EB35D4, #000000);
+    background-image: -ms-linear-gradient(top, #EB35D4, #000000);
+    background-image: -o-linear-gradient(top, #EB35D4, #000000);
+    background-image: linear-gradient(to bottom, #EB35D4, #000000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0rem 0.063rem 0.313rem #ffffff;
+    -moz-box-shadow: 0rem 0.063rem 0.313rem #ffffff;
+    box-shadow: 0rem 0.063rem 0.313rem #ffffff;
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding: 0.188rem 0.938rem 0.188rem 15px;
+    text-decoration: none;
+}
+
+.btn__descarga:hover {
+    text-decoration: none;
+}
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 424px){
+    #wave{
+        display: none;
+    }
+
+    .sectionOne{
+        background-color: #000000;
+        
+    }
+
+    .div__aboutMe{
+        margin-top: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #wave{
+        display: none;
+    }
+
+    .sectionOne{
+        background-color: #000000;
+        
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    
+    .sectionOne{
+        margin-top: 16.1rem !important;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .sectionOne{
+        margin-top: 16.1rem !important;
+        height: 19rem !important;
+        
+    }
+}
+
+@media screen and (max-width: 992px){
+    #wave{
+        margin-top: 14rem;
+    }
+
+    .sectionOne{
+        margin-top: 17rem;
+        padding-right: 2.5rem; 
+    }
+    
+    .div__aboutMe{
+        padding-top: 2rem;
+    }
+    
+    .star__aboutMe--1{
+        display: none;
+        
+    }
+    
+    .computer{
+        display: none;
+    }
+    
+    .star__aboutMe--2{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1332px) {
+    .sectionOne{
+        margin-top: 4rem !important;
+    }
+
+    .star__aboutMe--2{
+        display: none;
+    }
+}

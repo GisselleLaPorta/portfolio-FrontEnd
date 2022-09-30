@@ -1,0 +1,78 @@
+header{
+    height: 17rem;
+}
+
+.header__logo--img{
+    width: 5rem; 
+}
+
+.header__logo--icon{
+    width: 1.8rem;
+}
+
+.btn__login{
+    background: #B926A7;
+    background-image: -webkit-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -moz-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -ms-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -o-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: linear-gradient(to bottom, #B926A7, #EB35D4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 1.75rem;
+    -webkit-box-shadow: 0rem 0.063rem 1.875rem #EB35D4;
+    -moz-box-shadow: 0rem 0.063rem 1.875rem #EB35D4;
+    box-shadow: 0rem 0.063rem 1.875rem #EB35D4;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.125rem 0.938rem;
+    text-decoration: none;
+}
+
+.btn__login:hover {
+    text-decoration: none;
+}
+
+.header__name{
+    width: 25rem;
+    margin: 2rem;
+}
+
+.header__img{
+    width: 15rem;
+    border-radius: 56% 44% 16% 84% / 83% 83% 17% 17%;
+
+}
+
+.moon{
+    position: relative;
+    margin-top: -24rem;
+    margin-left: 3.5rem;
+    width: 15rem;
+    padding-left: 1rem;
+    z-index: -2;
+}
+
+.star__header{
+    width: 4rem;
+    margin-left: 13rem;
+    margin-top: -9rem;
+}
+
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 992px){
+    .header__name{
+        width: 28.5rem;
+    }
+
+    .moon{
+        margin-left: 7rem;
+        width: 12rem;
+    }
+
+    .star__header{
+        margin-left: 22rem;
+    }
+}

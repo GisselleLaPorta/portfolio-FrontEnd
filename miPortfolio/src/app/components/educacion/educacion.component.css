@@ -1,0 +1,35 @@
+.star__edu{
+    width: 4.5rem;
+    transform: rotate(180deg);
+}
+
+.grid__education{
+    margin-right: 8rem;
+}
+
+.logo__AP{
+    width: 8rem;
+}
+
+.logo__coder{
+    width: 7rem;
+}
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 576px){
+    .grid__education--img{
+        margin-left: 0rem !important;
+        padding-left: 0rem !important;
+    }
+    
+    .grid__education--img{
+        margin-left: 0rem !important;
+        padding-left: 0rem !important;
+    }
+
+    .grid__education--p{
+        margin-left: 0rem !important;
+        padding-left: 0rem !important;
+    }
+}

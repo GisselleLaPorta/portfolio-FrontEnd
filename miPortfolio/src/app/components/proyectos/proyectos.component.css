@@ -1,0 +1,39 @@
+.star__proyect{
+    width: 2.5rem;
+}
+
+.card{
+    background-color: black;
+    transition: all 1s ease-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 2px 2px 38px 0px rgba(235,53,212,1);
+    -moz-box-shadow: 2px 2px 38px 0px rgba(235,53,212,1);
+    box-shadow: 2px 2px 38px 0px rgba(235,53,212,1);
+}
+
+.btn__card{
+    background: #B926A7;
+    background-image: -webkit-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -moz-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -ms-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: -o-linear-gradient(top, #B926A7, #EB35D4);
+    background-image: linear-gradient(to bottom, #B926A7, #EB35D4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 1.75rem;
+    color: #ffffff;
+    padding: 0.10rem 0.8rem;
+    font-size: 0.8rem;
+    transition: all 0.5s ease-out;
+}
+
+.btn__card:hover{
+    transform: scale(1.1);
+}
+
+.title--dos{
+    font-size: 1.022rem;
+}
